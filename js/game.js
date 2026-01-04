@@ -26,10 +26,9 @@ const config = {
   width: 1920,
   height: 1080,
   physics: {
-    default: 'matter',
-    matter: {
+    default: 'arcade',
+    arcade: {
       debug: true,
-      gravity: { y: 0 }
     }
   },
   backgroundColor: 0x5f6e7a,
